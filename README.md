@@ -1,24 +1,20 @@
-# README
+## Modeling data
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  **Post**
+      title:string
+      content:text
 
-Things you may want to cover:
+  **Project**
+      title:string
+      discription:text
+      link:string
 
-* Ruby version
+  **User**
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  ## Pages needed
+    - Home
+    - Posts#index
+    - Post#show
+    - Projects#index
+    - Projects#show
+    - Contact   
